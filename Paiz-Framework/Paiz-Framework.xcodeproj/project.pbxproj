@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8831D2DD14370EC80041797D /* Build All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8831D2DE14370EC80041797D /* Build configuration list for PBXAggregateTarget "Build All" */;
+			buildPhases = (
+				8831D2E214370EF60041797D /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Build All";
+			productName = "Build All";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8831D2D114370C840041797D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8831D2CF14370C840041797D /* InfoPlist.strings */; };
+		8831D2DC14370D9C0041797D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8831D2DA14370D8A0041797D /* UIKit.framework */; };
+		8831D2E414370F5C0041797D /* Paiz.h in Headers */ = {isa = PBXBuildFile; fileRef = 8831D2E314370F5C0041797D /* Paiz.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8831D2E9143713C90041797D /* Paiz-Framework-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 8831D2D214370C840041797D /* Paiz-Framework-Prefix.pch */; };
+		8831D2EC143714A80041797D /* PaizClassModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8831D2EA143714A80041797D /* PaizClassModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8831D2ED143714A80041797D /* PaizClassModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8831D2EB143714A80041797D /* PaizClassModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8831D2C314370C840041797D /* Paiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Paiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8831D2CE14370C840041797D /* Paiz-Framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Paiz-Framework-Info.plist"; sourceTree = "<group>"; };
+		8831D2D014370C840041797D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8831D2D214370C840041797D /* Paiz-Framework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Paiz-Framework-Prefix.pch"; sourceTree = "<group>"; };
+		8831D2DA14370D8A0041797D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8831D2E314370F5C0041797D /* Paiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Paiz.h; sourceTree = "<group>"; };
+		8831D2EA143714A80041797D /* PaizClassModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaizClassModel.h; sourceTree = "<group>"; };
+		8831D2EB143714A80041797D /* PaizClassModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaizClassModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8831D2C014370C840041797D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8831D2DC14370D9C0041797D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8831D2B814370C830041797D = {
+			isa = PBXGroup;
+			children = (
+				8831D2CC14370C840041797D /* Paiz-Framework */,
+				8831D2C514370C840041797D /* Frameworks */,
+				8831D2C414370C840041797D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8831D2C414370C840041797D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8831D2C314370C840041797D /* Paiz.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8831D2C514370C840041797D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8831D2DA14370D8A0041797D /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8831D2CC14370C840041797D /* Paiz-Framework */ = {
+			isa = PBXGroup;
+			children = (
+				8831D2D914370D6B0041797D /* Headers */,
+				8831D2D814370D5A0041797D /* Sources */,
+				8831D2CD14370C840041797D /* Supporting Files */,
+			);
+			path = "Paiz-Framework";
+			sourceTree = "<group>";
+		};
+		8831D2CD14370C840041797D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8831D2CE14370C840041797D /* Paiz-Framework-Info.plist */,
+				8831D2CF14370C840041797D /* InfoPlist.strings */,
+				8831D2D214370C840041797D /* Paiz-Framework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8831D2D814370D5A0041797D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8831D2EB143714A80041797D /* PaizClassModel.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		8831D2D914370D6B0041797D /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				8831D2E314370F5C0041797D /* Paiz.h */,
+				8831D2EA143714A80041797D /* PaizClassModel.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8831D2E114370EDE0041797D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8831D2E414370F5C0041797D /* Paiz.h in Headers */,
+				8831D2EC143714A80041797D /* PaizClassModel.h in Headers */,
+				8831D2E9143713C90041797D /* Paiz-Framework-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8831D2C214370C840041797D /* Paiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8831D2D514370C840041797D /* Build configuration list for PBXNativeTarget "Paiz" */;
+			buildPhases = (
+				8831D2BF14370C840041797D /* Sources */,
+				8831D2C014370C840041797D /* Frameworks */,
+				8831D2C114370C840041797D /* Resources */,
+				8831D2E114370EDE0041797D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paiz;
+			productName = "Paiz-Framework";
+			productReference = 8831D2C314370C840041797D /* Paiz.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8831D2BA14370C830041797D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8831D2BD14370C830041797D /* Build configuration list for PBXProject "Paiz-Framework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8831D2B814370C830041797D;
+			productRefGroup = 8831D2C414370C840041797D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8831D2C214370C840041797D /* Paiz */,
+				8831D2DD14370EC80041797D /* Build All */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8831D2C114370C840041797D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8831D2D114370C840041797D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8831D2E214370EF60041797D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\nFMK_NAME=Paiz\nFMK_VERSION=1.0.0\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\n# Creates and renews the final product folder.\nmkdir -p \"${INSTALL_DIR}\"\nmkdir -p \"${INSTALL_DIR}/Versions\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers\"\n\n# Creates the internal links.\n# It MUST uses relative path, otherwise will not work when the folder is copied/moved.\nln -s \"${FMK_VERSION}\" \"${INSTALL_DIR}/Versions/Current\"\nln -s \"Versions/Current/Headers\" \"${INSTALL_DIR}/Headers\"\nln -s \"Versions/Current/Resources\" \"${INSTALL_DIR}/Resources\"\nln -s \"Versions/Current/${FMK_NAME}\" \"${INSTALL_DIR}/${FMK_NAME}\"\n\n# Copies the headers and resources files to the final product folder.\ncp -R \"${DEVICE_DIR}/Headers/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers/\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/\"\n\n# Removes the binary and header from the resources folder.\nrm -r \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/Headers\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/${FMK_NAME}\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/Versions/${FMK_VERSION}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8831D2BF14370C840041797D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8831D2ED143714A80041797D /* PaizClassModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8831D2CF14370C840041797D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8831D2D014370C840041797D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8831D2D314370C840041797D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = " $(ARCHS_STANDARD_32_BIT)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		8831D2D414370C840041797D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = " $(ARCHS_STANDARD_32_BIT)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		8831D2D614370C840041797D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paiz-Framework/Paiz-Framework-Prefix.pch";
+				INFOPLIST_FILE = "Paiz-Framework/Paiz-Framework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = " $(ARCHS_STANDARD_32_BIT)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		8831D2D714370C840041797D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paiz-Framework/Paiz-Framework-Prefix.pch";
+				INFOPLIST_FILE = "Paiz-Framework/Paiz-Framework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = " $(ARCHS_STANDARD_32_BIT)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		8831D2DF14370EC80041797D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8831D2E014370EC80041797D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8831D2BD14370C830041797D /* Build configuration list for PBXProject "Paiz-Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8831D2D314370C840041797D /* Debug */,
+				8831D2D414370C840041797D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8831D2D514370C840041797D /* Build configuration list for PBXNativeTarget "Paiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8831D2D614370C840041797D /* Debug */,
+				8831D2D714370C840041797D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8831D2DE14370EC80041797D /* Build configuration list for PBXAggregateTarget "Build All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8831D2DF14370EC80041797D /* Debug */,
+				8831D2E014370EC80041797D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8831D2BA14370C830041797D /* Project object */;
+}
